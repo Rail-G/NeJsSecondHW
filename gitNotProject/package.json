@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "built": "babel src -d babelResult"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rail-G/NeJsSecondHW.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "gamurai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rail-G/NeJsSecondHW/issues"
+  },
+  "homepage": "https://github.com/Rail-G/NeJsSecondHW#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
