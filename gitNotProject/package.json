@@ -25,9 +25,13 @@
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
+    "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.5.0",
     "eslint": "^9.5.0",
-    "globals": "^15.6.0"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "globals": "^15.6.0",
+    "install-peerdeps": "^3.0.3"
   },
   "dependencies": {
     "core-js": "^3.37.1"
